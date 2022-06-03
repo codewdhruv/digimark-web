@@ -9,17 +9,14 @@ export const Organizers = () => {
 	return (
 		<div>
 			<Helmet>
-				<title>GDG Devfest 2021 Jakarta - Organizers</title>
+				<title>#</title>
 			</Helmet>
 			<Container className="py-24 space-y-12">
 				<Fade top>
 					<div className="space-y-5">
 						<h1 className="text-6xl font-bold">Organizers.</h1>
 						<p className="text-xl text-gray-500">
-							DevFest Jakarta is a Jakarta community-driven conference, and
-							administratively supported by GDG Jakarta. To make all this
-							possible, an awesome team of volunteers is working behind the
-							scenes.
+							lorem
 						</p>
 					</div>
 				</Fade>
