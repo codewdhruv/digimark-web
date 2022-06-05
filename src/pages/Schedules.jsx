@@ -28,7 +28,7 @@ export const Schedules = () => {
 					<div className="space-y-5">
 						<h1 className="text-6xl font-bold">Schedules.</h1>
 						<p className="text-xl text-gray-500">
-							Follow code demonstrations by our expert speakers on 3 different
+							Follow model demonstrations by our expert speakers on 5 different
 							tracks. Check out the schedule below and don't forget to mark your
 							calendar so that you don't miss out on any sessions.
 						</p>
@@ -52,7 +52,7 @@ export const Schedules = () => {
 					</div>
 
 					<div className="text-center font-semibold text-3xl">
-						{activeSchedule.topic} Day
+						{activeSchedule.topic}
 					</div>
 				</Fade>
 
@@ -73,7 +73,7 @@ export const Schedules = () => {
 							<span>
 								<MdOndemandVideo size={20} />
 							</span>
-							<span>Watch Now</span>
+							<span>Join Session</span>
 						</a>
 						{activeSchedule.celendar_url && (
 							<a

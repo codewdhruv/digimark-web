@@ -48,7 +48,7 @@ export const StreamCard = ({
 								<span>
 									<MdOndemandVideo size={20} />
 								</span>
-								<span>Watch Now</span>
+								<span>Join Session</span>
 							</a>
 							{googleCalendarReminderUrl && (
 								<a
