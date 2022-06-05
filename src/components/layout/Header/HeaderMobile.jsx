@@ -18,7 +18,7 @@ export const HeaderMobile = () => {
 						<img
 							className="w-64"
 							src={require("../../../assets/images/gdg-logo.png").default}
-							alt="GDG Logo"
+							alt="Logo"
 						/>
 					</Link>
 					<button

@@ -4,7 +4,7 @@ export const Banner = () => {
 			<div style={{ height: 700 }}>
 				<img
 					className="w-full h-full object-cover object-left-top md:object-top"
-					src={require("../../assets/images/banner.jpg").default}
+					src={require("../../assets/images/banner.png").default}
 					alt=""
 				/>
 			</div>

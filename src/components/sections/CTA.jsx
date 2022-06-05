@@ -11,19 +11,17 @@ export const CTA = () => {
 						latest announcements
 					</h1>
 					<p className="text-xl text-gray-500">
-						Let's get connected so that we can reach out to each other via a
-						simple notification. Stake out #DigiMark for the updates and
-						news.
+						Want us to host a webinar at your university to spread the word on DigiMark 2022?. Fill in the Webinar Request and @Team Cause will get back to you.
 					</p>
 				</div>
 				<div>
 					<a
 						className="bg-blue-700 hover:bg-blue-800 transition-all px-8 py-3 rounded-md text-white"
-						href="#"
+						href="https://bit.ly/DigiMark-Request-A-Webinar"
 						target="_blank"
 						rel="noreferrer"
 					>
-						Learn more about DigiMark 2022
+						Request A Webinar
 					</a>
 				</div>
 			</Container>
