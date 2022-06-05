@@ -7,7 +7,7 @@ export const Speakers = () => {
 	return (
 		<div>
 			<Helmet>
-				<title>GDG Devfest 2021 Jakarta - Speakers</title>
+				<title>DigiMark 2022 - Speakers</title>
 			</Helmet>
 			<Container className="py-24 space-y-24">
 				<Fade top>

@@ -9,7 +9,7 @@ export const Organizers = () => {
 	return (
 		<div>
 			<Helmet>
-				<title>#</title>
+				<title>DigiMark 2022 - Organizers</title>
 			</Helmet>
 			<Container className="py-24 space-y-12">
 				<Fade top>

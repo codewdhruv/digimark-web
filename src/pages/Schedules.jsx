@@ -21,7 +21,7 @@ export const Schedules = () => {
 	return (
 		<div>
 			<Helmet>
-				<title>GDG Devfest 2021 Jakarta - Schedules</title>
+				<title>DigiMark 2022 - Schedules</title>
 			</Helmet>
 			<Container className="py-24 space-y-12">
 				<Fade top>
