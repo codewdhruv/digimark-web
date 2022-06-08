@@ -71,4 +71,15 @@ export const SPEAKERS_DATA = [
 	    linkedin: "https://www.linkedin.com/in/sandybcsald/",
 		},
 	},
+	{
+		name: "Suryansh Upadhyay",
+		topic: "-",
+		avatar_url: require("../assets/images/speakers/6.jpeg").default,
+		institution: "Digi Gurus Private Limited",
+		roles: "Founder & CEO",
+		featured_speaker: true,
+		social_media: {
+	    linkedin: "https://www.linkedin.com/in/suryansh-upadhyay-82142114b/",
+		},
+	},
 ];
