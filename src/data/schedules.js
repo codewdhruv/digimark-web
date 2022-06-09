@@ -4,7 +4,7 @@ export const ScheduleData = [
 		topic: "Mastering SEO, Content Marketing, PPC and Digital Analytics",
 		date: "Monday, 20th June 2022",
 		time: "18:15 - 21.00 IST",
-		thumbnail: require("../assets/images/lighweight-web.png").default,
+		thumbnail: require("../assets/images/1.png").default,
 		celendar_url:
 			"#",
 		youtube_url: "#",
