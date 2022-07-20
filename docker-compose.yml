@@ -1,0 +1,28 @@
+version: "3.7"
+services:
+  harness-ng-delegate:
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 2048M
+    image: harness/delegate:latest
+    environment:
+      - ACCOUNT_ID=TYrAQCunTnKX6F9GPgCA2A
+      - DELEGATE_TOKEN=422a891245eada5ed2da84e4f1f30fa3
+      - MANAGER_HOST_AND_PORT=https://app.harness.io/gratis
+      - WATCHER_STORAGE_URL=https://app.harness.io/public/free/freemium/watchers
+      - WATCHER_CHECK_LOCATION=current.version
+      - DELEGATE_STORAGE_URL=https://app.harness.io
+      - DELEGATE_CHECK_LOCATION=delegatefree.txt
+      - CDN_URL=https://app.harness.io
+      - REMOTE_WATCHER_URL_CDN=https://app.harness.io/public/shared/watchers/builds
+      - DEPLOY_MODE=KUBERNETES
+      - DELEGATE_NAME=digimark-docker
+      - NEXT_GEN=true
+      - DELEGATE_DESCRIPTION=
+      - DELEGATE_TYPE=DOCKER
+      - DELEGATE_TAGS=
+      - PROXY_MANAGER=true
+      - INIT_SCRIPT=echo "Docker delegate init script executed."
